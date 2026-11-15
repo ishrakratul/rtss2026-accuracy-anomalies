@@ -1,0 +1,10 @@
+algorithm,cascade,expected_accuracy,expected_time_ms,wcet_ms,observed_accuracy,observed_time_ms
+Alg1,K6,0.9029,66.696,80.544,0.8965,66.734
+accObl,K4 -> K5 -> K1 -> K6,0.7901,20.524,142.437,0.796,20.478
+Alg2 (alpha=0.7),K5,0.7336,18.185,30.061,0.7335,18.174
+Alg2 (alpha=0.75),K4 -> K6,0.831,26.997,96.065,0.826,26.684
+Alg2 (alpha=0.8),K3 -> K6,0.8382,39.355,121.275,0.8395,39.892
+brtFrc (max accuracy),K6,0.9029,66.696,80.544,0.8965,66.734
+brtFrc (accuracy >= 0.70),K4 -> K5,0.739,14.976,45.582,0.7435,14.87
+brtFrc (accuracy >= 0.75),K4 -> K5 -> K2,0.7644,17.37,84.988,0.7695,17.319
+brtFrc (accuracy >= 0.80),K5 -> K4 -> K1 -> K6,0.8118,25.167,142.437,0.8195,25.363

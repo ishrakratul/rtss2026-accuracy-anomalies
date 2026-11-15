@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper below."
+title: "Artifact for: Accuracy Anomalies in Classifier Cascades"
+authors:
+  - family-names: Baruah
+    given-names: Sanjoy
+  - family-names: Ratul
+    given-names: Ishrak Jahan
+  - family-names: Yang
+    given-names: Kecheng
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Accuracy Anomalies in Classifier Cascades"
+  authors:
+    - family-names: Baruah
+      given-names: Sanjoy
+    - family-names: Ratul
+      given-names: Ishrak Jahan
+    - family-names: Yang
+      given-names: Kecheng
+  collection-title: "Proceedings of the 47th IEEE Real-Time Systems Symposium (RTSS)"
+  year: 2026

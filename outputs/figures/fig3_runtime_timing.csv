@@ -1,0 +1,117 @@
+algorithm,n,avg_processing_time_ms,std_ms,min_ms,max_ms,repeats,expected_classification_time,expected_accuracy,selected_order,skipped,skip_reason
+Algorithm 1,2,0.016094000000000004,0.0010828277794737255,0.015137,0.018785,10,0.005651952971949208,0.9046944169844263,"[1, 0]",False,
+Algorithm 1,3,0.031179699999999998,0.006459336096689814,0.027618,0.050275,10,0.007916332669968312,0.8995548891494204,"[1, 2, 0]",False,
+Algorithm 1,4,0.0558536,0.0010109214806304201,0.055076,0.058692,10,0.0048421359592061486,0.9374382083410459,"[2, 0, 1, 3]",False,
+Algorithm 1,5,0.11762139999999999,0.0015013296240333114,0.116553,0.121993,10,0.0054755986494485955,0.8984207217294454,"[4, 1, 3, 0, 2]",False,
+Algorithm 1,6,0.2534939,0.0005753592703693867,0.25301,0.255123,10,0.00901411015504773,0.9144756132665229,"[4, 3, 2, 1, 0, 5]",False,
+Algorithm 1,7,0.5649439,0.008390493542694603,0.558569,0.586347,10,0.00814094900583304,0.8633458036186583,"[3, 1, 5, 6, 0, 4, 2]",False,
+Algorithm 1,8,1.24645,0.010700331359355176,1.238555,1.271677,10,0.010402979863877794,0.9186875177971916,"[4, 3, 0, 7, 5, 2, 6, 1]",False,
+Algorithm 1,9,2.7948551999999998,0.006680076104356845,2.786541,2.805647,10,0.007147179115814551,0.9392236216763143,"[7, 0, 2, 6, 5, 8, 1, 4, 3]",False,
+Algorithm 1,10,6.1534479,0.0038028643796485613,6.147556,6.162405,10,0.00959107872459444,0.9372278454449556,"[9, 3, 4, 1, 7, 8, 2, 5, 0, 6]",False,
+Algorithm 1,11,13.370830000000002,0.04376075808758325,13.338485,13.475679,10,0.007821756345059284,0.9422987397865245,"[2, 0, 6, 1, 3, 8, 5, 7, 10, 4, 9]",False,
+Algorithm 1,12,28.711582800000002,0.11205316126357183,28.590833,28.867884,10,0.01058219128302033,0.9422770572053445,"[9, 7, 6, 11, 1, 4, 0, 10, 5, 8, 2, 3]",False,
+Algorithm 1,13,62.745043499999994,0.5138031956746174,61.97325,64.079995,10,0.0061991856013459004,0.9201779247522598,"[0, 3, 4, 6, 10, 12, 2, 11, 8, 5, 1, 7, 9]",False,
+Algorithm 1,14,134.79472990000002,0.5255152097714072,134.08184,135.691523,10,0.009093602491887847,0.9428010267379667,"[3, 1, 2, 13, 9, 6, 10, 8, 5, 12, 0, 7, 11, 4]",False,
+Algorithm 1,15,280.3379054,2.741641735946154,276.951436,285.097882,10,0.0021812727811523908,0.9328567101206333,"[13, 7, 4, 1, 9, 6, 8, 5, 11, 3, 10, 0, 12, 2, 14]",False,
+Algorithm 1,16,595.4809779,2.4565145131180355,593.166182,602.158753,10,0.003536565290772202,0.9267020479121865,"[11, 8, 13, 1, 6, 4, 0, 12, 14, 2, 3, 5, 15, 9, 7, 10]",False,
+Algorithm 1,17,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,18,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,19,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,20,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,21,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,22,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,23,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,24,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,25,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,26,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,27,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,28,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,29,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 1,30,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,2,0.017834900000000004,0.000688821522602191,0.017185,0.019297,10,0.0014290943562969656,0.6571528620833901,[0],False,
+Algorithm 2,3,0.036274499999999994,0.0005535834625420089,0.035778,0.037283,10,0.0033274211738872103,0.5977273122576839,[0],False,
+Algorithm 2,4,0.0864733,0.008053669325841485,0.08215,0.110408,10,0.0018621105390879418,0.7198246394216365,[0],False,
+Algorithm 2,5,0.1915782,0.000977362450680406,0.190125,0.193038,10,0.004021185730582875,0.6713063838857839,[4],False,
+Algorithm 2,6,0.4441751,0.006675646282570701,0.435327,0.460257,10,0.001696427220202553,0.6550474490741568,[1],False,
+Algorithm 2,7,1.0168456000000001,0.0045981827758365115,1.00791,1.024776,10,0.0011230811198137327,0.7766834442220659,[5],False,
+Algorithm 2,8,2.2967819,0.01194208241011585,2.277215,2.316483,10,0.0028747204539163423,0.5473927869141515,[1],False,
+Algorithm 2,9,5.122816500000001,0.006167438872822466,5.114598,5.135176,10,0.004940727911122424,0.7039337289896573,[2],False,
+Algorithm 2,10,11.3224929,0.009571466527654096,11.307096,11.337115,10,0.0021251868749902637,0.7353187461761527,[1],False,
+Algorithm 2,11,24.5494548,0.04475150775068917,24.468111,24.601373,10,0.0017746443367670285,0.5795452733484074,[4],False,
+Algorithm 2,12,53.363458300000005,0.373785913490076,52.696868,53.709514,10,0.0019236111916388213,0.6495936639093426,[6],False,
+Algorithm 2,13,113.53514340000001,0.6247207551721322,112.334639,114.539324,10,0.0033113520064149368,0.7399162159834506,[4],False,
+Algorithm 2,14,242.83185310000005,0.5526834551957319,241.985651,243.717047,10,0.0024524064007697957,0.5408898218345463,[6],False,
+Algorithm 2,15,516.6117888000001,2.2718813790594186,513.565859,520.69156,10,0.0012468875479277385,0.7102198694809191,[13],False,
+Algorithm 2,16,1105.9769382,4.967064526066422,1099.608645,1116.870122,10,0.0010128033076971961,0.5997093923574813,[5],False,
+Algorithm 2,17,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,18,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,19,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,20,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,21,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,22,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,23,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,24,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,25,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,26,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,27,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,28,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,29,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 2,30,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,2,0.0287411,0.006354507588318704,0.025186,0.047331,10,0.0017738919111088731,0.7460641363561629,"[0, 'K_det']",False,
+Algorithm 7,3,0.0385338,0.0006276296360115581,0.037634,0.039843,10,0.00443153347829065,0.8912433880438895,"[2, 'K_det']",False,
+Algorithm 7,4,0.06775809999999999,0.0005126192446641071,0.067108,0.068581,10,0.0026034062035838667,0.921880010926714,"[0, 'K_det']",False,
+Algorithm 7,5,0.1375961,0.0051582471722475655,0.134249,0.152425,10,0.004725298453871711,0.8305822654764147,"[1, 4, 'K_det']",False,
+Algorithm 7,6,0.2883804,0.004536738744957652,0.284722,0.30082,10,0.0019467247125648413,0.7078305126824156,"[1, 0, 3, 'K_det']",False,
+Algorithm 7,7,0.6212979,0.005762675341367061,0.614792,0.634089,10,0.0013177540583453114,0.8330908243601804,"[5, 2, 0, 'K_det']",False,
+Algorithm 7,8,1.3500139999999998,0.009155325433866338,1.336695,1.370585,10,0.0032743067090300715,0.6165299872803234,"[1, 7, 0, 'K_det']",False,
+Algorithm 7,9,2.9696065999999997,0.015390303727997023,2.958207,3.014115,10,0.006025476779031015,0.8448937926056012,"[2, 7, 4, 'K_det']",False,
+Algorithm 7,10,6.514411900000001,0.028587050961755466,6.482404,6.593707,10,0.0027512815855868103,0.8533155171293783,"[1, 8, 6, 7, 0, 'K_det']",False,
+Algorithm 7,11,13.9669645,0.10128299090099016,13.911332,14.264411,10,0.0020416627735366823,0.7283176275457363,"[5, 4, 7, 0, 'K_det']",False,
+Algorithm 7,12,30.225885300000005,0.17681239358203982,30.037047,30.729348,10,0.0027777100650998522,0.8364487053472748,"[6, 8, 2, 4, 7, 'K_det']",False,
+Algorithm 7,13,64.6806429,0.38055972005414657,64.376412,65.765174,10,0.004035696697454506,0.8515940866431156,"[4, 7, 0, 11, 1, 'K_det']",False,
+Algorithm 7,14,137.91464290000002,0.8710682458881684,137.044615,140.200358,10,0.003572951686293192,0.7309269750164856,"[6, 4, 9, 0, 'K_det']",False,
+Algorithm 7,15,291.4539572,1.5155656884145852,289.819982,295.574175,10,0.0017125426809023675,0.8972827679028835,"[13, 6, 5, 7, 9, 3, 8, 'K_det']",False,
+Algorithm 7,16,619.7717347,3.707573627689713,615.855867,629.828384,10,0.0011340595585513373,0.6729649971556114,"[5, 14, 10, 12, 8, 15, 11, 'K_det']",False,
+Algorithm 7,17,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,18,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,19,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,20,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,21,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,22,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,23,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,24,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,25,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,26,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,27,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,28,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,29,,,,,0,,,,True,skipped because n>16; too expensive
+Algorithm 7,30,,,,,0,,,,True,skipped because n>16; too expensive
+Brute force n!,2,0.0052131,0.00044720452815238785,0.004896,0.006304,10,0.005651952971949208,0.9046944169844263,"[1, 0]",False,
+Brute force n!,3,0.1333972,0.005156537652339986,0.127592,0.146025,10,0.007916332669968312,0.8995548891494204,"[1, 2, 0]",False,
+Brute force n!,4,0.843771,0.013237178566446874,0.822355,0.86351,10,0.0048421359592061486,0.9374382083410459,"[2, 0, 1, 3]",False,
+Brute force n!,5,3.8105353,0.029962991956912377,3.779596,3.867761,10,0.0054755986494485955,0.8984207217294454,"[4, 1, 3, 0, 2]",False,
+Brute force n!,6,25.8227367,0.10872176422782077,25.628509,25.994386,10,0.00901411015504773,0.9144756132665229,"[4, 3, 2, 1, 0, 5]",False,
+Brute force n!,7,197.89077849999998,0.471001275970298,197.168243,198.504421,10,0.00814094900583304,0.8633458036186583,"[3, 1, 5, 6, 0, 4, 2]",False,
+Brute force n!,8,1607.2912735,8.410395931994394,1588.807106,1619.675439,10,0.010402979863877794,0.9186875177971916,"[4, 3, 0, 7, 5, 2, 6, 1]",False,
+Brute force n!,9,14819.069573399998,89.25161720414162,14671.80378,14954.831285,10,0.007147068405742361,0.9392185379750919,"[7, 0, 2, 6, 5, 8, 4, 1, 3]",False,
+Brute force n!,10,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,11,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,12,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,13,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,14,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,15,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,16,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,17,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,18,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,19,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,20,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,21,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,22,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,23,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,24,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,25,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,26,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,27,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,28,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,29,,,,,0,,,,True,skipped because n>9; too expensive
+Brute force n!,30,,,,,0,,,,True,skipped because n>9; too expensive

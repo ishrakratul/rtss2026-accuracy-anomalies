@@ -1,0 +1,8 @@
+# Additional deps for Option B (inference) and Option C (training) only.
+# Not needed for Option A (algorithms-only reproduction) -- install
+# requirements.txt alone for that.
+-r requirements.txt
+torch>=2.0
+torchvision>=0.15
+timm>=0.9
+Pillow>=9.0
