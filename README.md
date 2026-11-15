@@ -5,7 +5,7 @@ Sanjoy Baruah, Ishrak Jahan Ratul, and Kecheng Yang (alphabetical author
 order), 47th IEEE Real-Time Systems Symposium (RTSS 2026).
 This artifact passed RTSS 2026 artifact evaluation.
 
-- **Trained checkpoints (~1.3 GB):** hosted on Zenodo, see
+- **Trained checkpoints (~1.3 GB):** on Zenodo, see
   [Getting the trained models](#getting-the-trained-models). Not needed
   for Option A.
 - **Dataset:** Tiny-ImageNet-200 downloads automatically from its
@@ -60,7 +60,7 @@ Takes about 2–3 minutes on our machine. Your time will differ — Figure
 
 ### Option B — re-run inference using the trained models
 
-First download the checkpoints (see
+First get the checkpoints (see
 [Getting the trained models](#getting-the-trained-models)), then:
 
 ```bash
@@ -164,16 +164,17 @@ also tested pandas 2.3.3 and matplotlib 3.10.7.
 
 ## Getting the trained models
 
-The six trained checkpoints are too large for GitHub (about 1.3 GB), so
-they are on Zenodo: **https://doi.org/10.5281/zenodo.24243817**
+The six trained checkpoints (about 1.3 GB, CC-BY-4.0) are archived on
+Zenodo: **https://doi.org/10.5281/zenodo.24243817**
 
 ```bash
 python3 scripts/download_models.py
 ```
 
-This places them in `models/pretrained/` with the exact filenames the
-code expects. You can also download them from Zenodo by hand and copy
-them there. Option A does not need them.
+This downloads them into `models/pretrained/` with the exact filenames
+the code expects (already-present files are skipped) and verifies each
+file's MD5 checksum. You can also download them from Zenodo by hand and
+copy them there. Option A does not need the checkpoints.
 
 ---
 
@@ -201,8 +202,8 @@ rtss2026-accuracy-anomalies/
 ├── requirements.txt         # Option A dependencies
 ├── requirements-train.txt   # adds PyTorch etc. for Options B and C
 ├── data/                    # the paper's per-classifier measurements
-├── models/pretrained/       # checkpoints go here (download from Zenodo)
-├── scripts/download_models.py  # fetches the checkpoints from Zenodo
+├── models/pretrained/       # checkpoints go here (downloaded from Zenodo)
+├── scripts/download_models.py  # downloads the checkpoints from Zenodo
 ├── src/
 │   ├── cascade/             # the core engine: calibration.py + algorithms.py
 │   ├── figures/             # one generator per table and figure
