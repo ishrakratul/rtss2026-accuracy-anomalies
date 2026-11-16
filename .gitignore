@@ -1,0 +1,18 @@
+# Large files: hosted on Zenodo, not GitHub
+models/pretrained/*.pth
+models/pretrained/*.pt
+tiny-imagenet-200/
+tiny-imagenet-200.zip
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.claude/
+.idea/
+.vscode/
